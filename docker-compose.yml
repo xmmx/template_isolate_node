@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: sample-app
+    environment:
+      - NODE_ENV=development
+    command: /bin/sh -c 'npm install && npm run debug'
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "3080:3000"
+      - "9229:9229"

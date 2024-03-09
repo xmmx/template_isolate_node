@@ -1,0 +1,13 @@
+Dockerfile
+
+.git
+.gitignore
+
+.vscode
+.npm
+node_modules
+
+README.md
+/scripts
+
+.DS_Store

@@ -1,0 +1,14 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "debug": "node --watch --inspect=0.0.0.0:9229 ./app/index.js",
+        "start": "node ./app/index.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
